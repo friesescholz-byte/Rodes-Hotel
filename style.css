@@ -799,6 +799,38 @@ section {
   padding-right: 20px;
 }
 
+/* Closure Notice / Special Operating Hours Banner */
+.closure-notice-box {
+  background-color: #FFF8EB;
+  border: 1px solid rgba(217, 162, 74, 0.4);
+  border-left: 4px solid var(--color-accent);
+  border-radius: var(--border-radius-sm);
+  padding: 16px 20px;
+  margin: 24px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  box-shadow: var(--shadow-sm);
+}
+
+.closure-notice-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--color-accent);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.closure-notice-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-text-dark);
+}
+
+.closure-notice-text strong {
+  color: var(--color-primary-dark);
+}
+
 .chef-quote {
   border-left: 3px solid var(--color-accent);
   padding-left: 20px;
