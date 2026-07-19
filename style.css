@@ -218,8 +218,35 @@ section {
 }
 
 /* ==========================================================================
-   HEADER & NAVIGATION
+   TOP ANNOUNCEMENT BAR & HEADER
    ========================================================================== */
+.top-announcement-bar {
+  background: linear-gradient(90deg, #C58F37 0%, #D9A24A 50%, #C58F37 100%);
+  color: var(--color-primary-dark);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px 15px;
+  text-align: center;
+  border-bottom: 1px solid rgba(7, 27, 51, 0.15);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.2px;
+}
+
+.top-announcement-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.announcement-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
 .main-header {
   position: fixed;
   top: 0;
